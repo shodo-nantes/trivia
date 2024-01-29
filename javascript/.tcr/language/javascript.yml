@@ -1,0 +1,9 @@
+toolchains:
+  default: npm
+  compatible-with: [npm]
+source-files:
+  directories: [.]
+  patterns: ['(?i)^.*\.js$']
+test-files:
+  directories: [.]
+  patterns: ['(?i)^.*\.(test|spec)\.js$']
