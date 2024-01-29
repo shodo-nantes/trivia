@@ -1,0 +1,17 @@
+{
+  "name": "trivia",
+  "version": "1.0.0",
+  "description": "Test with node.js =====================",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "legacy"
+  ],
+  "author": "jbrains",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
