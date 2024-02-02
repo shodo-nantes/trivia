@@ -1,5 +1,5 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.4.21"
+    id("org.jetbrains.kotlin.jvm") version "1.9.22"
 }
 
 repositories {
@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation "org.junit.jupiter:junit-jupiter:5.7.0"
+    testImplementation "org.junit.jupiter:junit-jupiter:5.10.1"
 }
 
 tasks.test {
